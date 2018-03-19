@@ -53,6 +53,8 @@ h1, h2 {
 
 #intro {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
