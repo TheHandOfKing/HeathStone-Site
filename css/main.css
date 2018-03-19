@@ -1,0 +1,76 @@
+li {
+  display: inline-block;
+  padding-left: 20px;
+  box-sizing: border-box; }
+  li a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px; }
+    li a:hover {
+      color: #d30000;
+      transition: color 0.3s ease; }
+
+#header_image {
+  padding: 13px;
+  box-sizing: border-box; }
+
+#header {
+  margin-top: -85px;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex; }
+  #header nav {
+    margin-top: 20px;
+    display: block; }
+
+a, p {
+  font-family: "Titillium web", sans-serif; }
+
+h1, h2 {
+  font-family: "lifecraftregular"; }
+
+#description {
+  margin: 0 auto;
+  width: 50%; }
+  #description p {
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold; }
+    #description p span {
+      color: #d30000; }
+  #description h1 {
+    margin-top: 20px; }
+
+.container4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  position: relative;
+  min-height: 1px;
+  float: left; }
+
+.fluid-container {
+  margin-top: 85px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; }
+  .fluid-container img {
+    width: 100%; }
+
+.column-half {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  min-height: 1px; }
+
+@media (max-width: 576px) {
+  nav {
+    display: none; }
+
+  .container4 {
+    margin: 0 auto;
+    display: block; } }
+
+/*# sourceMappingURL=main.css.map */

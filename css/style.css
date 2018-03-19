@@ -1,0 +1,63 @@
+@import url(main.css);
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#wrap{
+    height: 100%;
+    width:100%;
+}
+
+body{
+    background-color:rgb(216, 216, 216);
+}
+
+@font-face {
+    font-family: 'lifecraftregular';
+    src: url('fonts/LifeCraft_font.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    color:rgb(255, 123, 0);
+    font-size:2.6vw;
+    text-align: center;
+}
+h2{
+    font-family:'Titillium Web', sans-serif;
+    font-size:36px;
+    text-align: center;
+    color:black;
+    line-height: 40px;
+}
+
+
+#text{
+    width:40%;
+    margin:20px auto 0px auto;
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+/* Medias */
+
+
+@media (max-width: 578px) {
+    nav{
+    display:none;
+    }
+
+    .container4{
+        margin:0 auto;
+        display:block;
+
+    }
+    
+    }
+    
