@@ -43,13 +43,6 @@ h1, h2 {
   #description h1 {
     margin-top: 20px; }
 
-.container4 {
-  flex: 0 0 33.3333333333%;
-  max-width: 33.3333333333%;
-  position: relative;
-  min-height: 1px;
-  float: left; }
-
 .fluid-container {
   margin-top: 85px;
   width: 100%;
@@ -58,14 +51,8 @@ h1, h2 {
   .fluid-container img {
     width: 100%; }
 
-.column-half {
-  flex: 0 0 50%;
-  max-width: 50%;
-  position: relative;
-  width: 100%;
-  min-height: 1px; }
-
 #intro {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=main.css.map */
