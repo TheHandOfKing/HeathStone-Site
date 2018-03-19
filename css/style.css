@@ -17,7 +17,7 @@ body{
 
 @font-face {
     font-family: 'lifecraftregular';
-    src: url('../fonts/LifeCraft_font.ttf');
+    src: url('LifeCraft_font.ttf');
     font-weight: normal;
     font-style: normal;
 }
