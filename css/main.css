@@ -65,12 +65,7 @@ h1, h2 {
   width: 100%;
   min-height: 1px; }
 
-@media (max-width: 576px) {
-  nav {
-    display: none; }
-
-  .container4 {
-    margin: 0 auto;
-    display: block; } }
+#intro {
+  display: flex; }
 
 /*# sourceMappingURL=main.css.map */
