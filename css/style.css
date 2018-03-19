@@ -17,7 +17,7 @@ body{
 
 @font-face {
     font-family: 'lifecraftregular';
-    src: url('fonts/LifeCraft_font.ttf');
+    src: url('../fonts/LifeCraft_font.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,14 +48,15 @@ h2{
 /* Medias */
 
 
-@media (max-width: 578px) {
-    nav{
+@media screen and (max-width: 578px){
+    #header nav{
     display:none;
     }
 
-    .container4{
+   #intro .container4{
         margin:0 auto;
         display:block;
+        width:100%;
 
     }
     
