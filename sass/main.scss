@@ -66,13 +66,6 @@ h1,h2{
 }
 
 
-.container4{
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-    position: relative;
-    min-height: 1px;
-    float:left;
-}
 
 .fluid-container{
     margin-top:85px;
@@ -86,15 +79,7 @@ h1,h2{
 }
 
 
-.column-half{
-    flex: 0 0 50%;
-    max-width: 50%; 
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-}
-
-
 #intro{
     display:flex;
+    flex-wrap:wrap;
 }
