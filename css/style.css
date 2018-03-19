@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'lifecraftregular';
+    src: url('LifeCraft_font.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 @import url(main.css);
 
 
@@ -15,12 +25,6 @@ body{
     background-color:rgb(216, 216, 216);
 }
 
-@font-face {
-    font-family: 'lifecraftregular';
-    src: url('../HeathStone-Site/LifeCraft_font.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 h1
 {
