@@ -67,10 +67,15 @@ h2
         font-size:15px;
     }
 
-    #footer-left{
+    footer{
+        text-align:center;
+    }
+
+   footer #footer-left{
         float:none;
         display:block;
-        width:100%;
+        width:55%;
+        margin:0 auto;
     }
 
     #footer-right{
@@ -106,9 +111,7 @@ h2
         text-align: center;
         padding-bottom:4px;
     }
-
-
-    }
+  }
     
 
     /* Carousel, for some reason won't work properly in sass*/

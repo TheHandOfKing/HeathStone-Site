@@ -9,6 +9,6 @@ $(document).ready(function()
         {
             $("#ddown").addClass("ddown");
         }
-        return false; 
+        return false;
     });
 });
