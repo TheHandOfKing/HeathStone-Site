@@ -62,7 +62,7 @@ h1,h2{
     margin:0 auto;
     width:50%;
     p{
-        font-size:1.5vw;
+        font-size:26px;
         text-align:center;
         font-weight: bold;
         span{
@@ -81,16 +81,257 @@ h1,h2{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+img{
+    width:100%;
+}
 
-    img{
-        width:100%;
-    }
 }
 
 
 #intro{
+    margin-top:40px;
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
     text-align:center;
+}
+
+.container4{
+    width:33%;
+ p{
+    font-size:23px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-weight: bolder;
+    font-size:29px;
+}
+}
+
+#slideshow-container{
+    margin-top:40px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+    .mySlides{
+
+        .numbertext{
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .text{
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+        img{
+            width:100%;
+        }
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+    &:hover{
+        background-color: rgba(0,0,0,0.8);
+      }
+  }
+  .next {
+    right: 0;
+  }
+
+}
+
+
+#align{
+    text-align: center;
+    .dot{
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+
+        &:hover {
+            background-color: #717171;
+          }
+    }
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    margin-top:50px;
+    padding: 50px 60px 40px;
+    text-align: left;
+    box-sizing:border-box;
+    overflow: hidden;
+
+    #footer-left{
+     float:left;
+
+     a{
+         font-size:20px;
+         color:white;
+         text-decoration: none;
+         &:hover{
+            color:red;
+                transition: color 0.3s ease;
+        }
+     }
+
+     p{
+         margin-top:6px;
+         color:white;
+         font-size:15px;
+     }
+
+     #social-icons{
+          margin-top:110px;
+               a{
+                font-size:35px;
+
+                &:hover{
+                    color:white;
+                    transition:none;
+                }
+                    
+                 &:not(:first-child){
+                        margin-left:20px;
+                 }
+                }
+
+                .fa-facebook{
+                    &:hover{
+                        color:rgb(71, 71, 250);
+                        transition: color 0.3s ease;
+                    }
+                }
+
+                .fa-twitter{
+                    &:hover{
+                        color:rgb(19, 19, 250);
+                        transition: color 0.3s ease;
+                    }
+                }
+                    .fa-twitch{
+                        &:hover{
+                            color:rgb(108, 0, 250);
+                            transition: color 0.3s ease;
+                        }
+                     }
+
+                     .fa-youtube{
+                        &:hover{
+                            color:rgb(202, 0, 0);
+                            transition: color 0.3s ease;
+                        }
+                }
+
+                .fa-instagram{
+                    &:hover{
+                        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+                        border-radius:10px;
+                    }
+            }
+             }
+    }
+
+
+    #footer-right{
+        float:right;
+
+        form{
+            display:inline-block;
+
+            input,textarea{
+                height:55px;
+                margin-bottom:15px;
+                display: block;
+                border-radius: 3px;
+                box-sizing: border-box;
+                background-color: #1f2022;
+                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+                border: none;
+                font-size: 14px;
+                color: #d1d2d2;
+                width:360px;
+                padding: 18px;
+                font-family: $main-font;
+                overflow:hidden;
+            }
+
+            textarea{
+                height:100px;
+                resize: none;
+            }
+
+        
+
+            button{
+                cursor:pointer;
+                margin-top:30px;
+                font-family: $main-font;
+                background-color: #33383b;
+                color: #ffffff;
+                border: none;
+                padding: 15px 50px;
+                font-weight: bold;
+                border-radius:5px;
+               
+            }
+        }
+    }
+
+    #scroll-top{
+        margin-left:auto;
+        width:5%;
+        font-size:25px;
+
+        a{
+            color:white;
+
+            &:hover{
+                color:red;
+                    transition: color 0.3s ease;
+            }
+        }
+    }
+}
+
+
+textarea {
+    resize: none;
 }

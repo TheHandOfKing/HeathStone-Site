@@ -24,7 +24,7 @@
                 </li>
 
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="#slideshow-container">Gallery</a>
                 </li>
 
                 <li>
@@ -58,23 +58,130 @@
         <p>Classes</p>
         <br>
         <img src="images/classes.png" alt="">
+
+        <p>With 9 unique classes immerse yourself in the lore of Warcraft. Defeat your opponents, and many other characters from the WoW universe.</p>
+        <a href="#" target="_blank">Read More</a>
     </div>
 
     <div class="container4">
         <p>Packs</p>
         <br>
         <img src="images/packs.png" alt="">
+        <p>Who knows what they contain. From a wee snowflipper penguin to a mighty hoarding mountain giant. May the odds be in your favour.</p>
+        <a href="#" target="_blank">Read More</a>
     </div>
 
      <div class="container4">
         <p>Cards</p>
         <br>
         <img src="images/cards.jpg" alt="">
+
+        <p>Forge your deck with these mighty cards. Make your oponents fear your next move, be sneaky, be bold, win. Rise to the top, be with legends.</p>
+            <a href="#" target="_blank">Read More</a>
     </div>
 
 </div>
 
+<!-- Carousel and simillar things -->
+<br><br><br>
+
+
+<div id="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"><p> 1 / 6 </p></div>
+      <img src="images/karazhan.jpg">
+      <div class="text"><p>Our newest expansion : The Witch Wood</p></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"><p> 2 / 6 </p></div>
+      <img src="images/WWood.jpg">
+      <div class="text"><p>Our first free to play expansion : Knights of The Frozen Throne</p></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"><p> 3 / 6 </p></div>
+      <img src="images/kobolds.jpg">
+      <div class="text"><p>A never ending adventure, go deep into the dungeons of Kobolds</p></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"><p> 4 / 6 </p></div>
+        <img src="images/friends.jpg">
+        <div class="text"><p>Play with your friends, have some fun, and most importantly, win.</p></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"><p> 5 / 6 </p></div>
+        <img src="images/legend.jpg">
+        <div class="text"><p>Achieving a rank such as a Legend is really hard, be unique, be a Legend.</p></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"><p> 6 / 6 </p></div>
+        <img src="images/quests.jpg">
+        <div class="text"><p>Hearthstone makes sure you are never bored, loads of quests will entertain you for hours.</p></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div id="align">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
 </div>
 
+
+<footer>
+    <div id="footer-left">
+       <a href="index.html"><img src="images/blizzard.png" alt=""></a>
+
+     <p> <a href="#">Sitemap</a> &nbsp; <a href="#">Terms of service</a></p>
+     
+    <p>Blizzard Entertainement All Rights Reserved &copy; 2018</p>
+    <p>Site created by : Aleksandar Marjanovic 115/17</p>
+
+    <div id="social-icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-twitch"></i></a>
+        <a href=""><i class="fab fa-youtube"></i>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
+    </div>
+
+    <div id="footer-right">
+        <p>Contact Us</p>
+        <form action="#" method="post">
+
+            <input type="text" name="email" placeholder="E-mail">
+
+            <textarea name="message" id="message" placeholder="Message us"></textarea>
+
+            <button>Send</button>
+        </form>
+
+    </div>
+
+<div id="scroll-top">
+        <a href="#" onclick="topFunction()"><i class="fa fa-angle-up"></i></a>
+    </div>
+</footer>
+
+
+<script src="js/scrolltop.js"></script>
+<script src="js/carousel.js"></script>
 </body>
 </html>

@@ -18,8 +18,8 @@ body{
 
 h1
 {
+    font-size:50px;
     color:rgb(255, 123, 0);
-    font-size:2.6vw;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ h2
 /* Medias */
 
 
-@media screen and (max-width: 578px){
+@media screen and (max-width: 808px){
     #header nav{
     display:none;
     }
@@ -55,8 +55,50 @@ h2
        text-align:center;
         display:block;
         width:100%;
+        margin-bottom:40px;
 
     }
-    
+
+    h1{
+        font-size:26px;
+    }
+    #description p{
+        font-size:15px;
+    }
+
+    #footer-left{
+        float:none;
+        display:block;
+        width:100%;
+    }
+
+    #footer-right{
+        display:block;
+        float:none;
+        margin:0 auto;
+        width:250px;
+        width:100%;
+    }
     }
     
+
+    /* Carousel, for some reason won't work properly in sass*/
+
+* {box-sizing:border-box}
+
+.mySlides {
+    display: none;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* End of Carousel*/
