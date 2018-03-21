@@ -90,6 +90,24 @@ h2
         margin-left:auto;
         padding:20px;
     }
+
+    #ddown{
+        margin:0;
+        width:100%;
+        transition: height 0.3s ease;
+    }
+
+   #header nav{
+        margin:0;
+    }
+
+    #ddown ul li{
+        display:block;
+        text-align: center;
+        padding-bottom:4px;
+    }
+
+
     }
     
 
@@ -117,6 +135,6 @@ h2
 
 
 /* dropdown list*/
-.ddown{
-    height:auto;
+#header .ddown{
+    height: 172px;
 }
