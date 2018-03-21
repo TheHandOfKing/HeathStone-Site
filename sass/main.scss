@@ -207,7 +207,7 @@ footer{
          color:white;
          text-decoration: none;
          &:hover{
-            color:red;
+           color: $nav-color;
                 transition: color 0.3s ease;
         }
      }
@@ -280,10 +280,9 @@ footer{
                 height:55px;
                 margin-bottom:15px;
                 display: block;
-                border-radius: 3px;
+                border-radius: 5px;
                 box-sizing: border-box;
                 background-color: #1f2022;
-                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
                 border: none;
                 font-size: 14px;
                 color: #d1d2d2;
@@ -324,7 +323,7 @@ footer{
             color:white;
 
             &:hover{
-                color:red;
+              color: $nav-color;
                     transition: color 0.3s ease;
             }
         }
@@ -334,4 +333,12 @@ footer{
 
 textarea {
     resize: none;
+}
+
+
+#bars{
+    display:none;
+    i{
+        font-size:25px;
+    }
 }

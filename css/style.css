@@ -48,7 +48,8 @@ h2
 
 @media screen and (max-width: 808px){
     #header nav{
-    display:none;
+    height: 0;
+    overflow: hidden;
     }
 
    #intro .container4{
@@ -79,6 +80,16 @@ h2
         width:250px;
         width:100%;
     }
+
+    #bars{
+        display:block;
+        background:transparent;
+        color:white;
+        border:none;
+        outline:none;
+        margin-left:auto;
+        padding:20px;
+    }
     }
     
 
@@ -102,3 +113,10 @@ h2
 
 
 /* End of Carousel*/
+
+
+
+/* dropdown list*/
+.ddown{
+    height:auto;
+}
