@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+<url>
+
+<loc>http//:index.com</loc>
+
+<lastmod>2018-03-09</lastmod>
+
+<priority> 1.0 </priority>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+<url>
+
+<loc>http//:aboutme.com</loc>
+
+<lastmod>2017-12-05</lastmod>
+
+<priority> 6 </priority>
+
+<changefreq>yearly</changefreq>
+
+</url>
+
+<url>
+
+<loc>http//:terms.com</loc>
+
+<lastmod>2018-03-01</lastmod>
+
+<priority> 0.8 </priority>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+<url>
+
+<loc>http//:support.com</loc>
+
+<lastmod>2018-03-05</lastmod>
+
+<priority> 0.5 </priority>
+
+<changefreq>yearly</changefreq>
+
+</url>
+
+
+<url>
+
+<loc>http//:sign_in.com</loc>
+
+<lastmod>2018-03-05</lastmod>
+
+<priority> 0.5 </priority>
+
+<changefreq>never</changefreq>
+
+</url>
+
+</urlset>

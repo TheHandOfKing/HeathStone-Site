@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="images/hs_icon.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <title>Hearthstone</title>
+</head>
+<body>
+        <div id="header">
+                <div id="header_image">
+                   <a href="index.html"> <img src="images/blizzard.jpg" alt="blizzard_ico"> </a>
+                </div>
+                <button type="button" id="bars">
+                        <i class="fas fa-bars"></i>
+                </button>  
+                <nav id="ddown"> 
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+        
+                        <li>
+                            <a href="#slideshow-container">Gallery</a>
+                        </li>
+        
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+        
+                        <li>
+                          <a href="sign_in.html">Sign In</a>                    
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="about">
+                <h1>Sign in to our site by filling the form below</h1>
+
+                <div id="signin">
+                    <form id="contactform"> 
+                        <p class="contact"><label for="name">Name</label></p> 
+                        <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> 
+                         
+                        <p class="contact"><label for="email">Email</label></p> 
+                        <input id="email" name="email" placeholder="example@domain.com" required="" type="email"> 
+                        
+                        <p class="contact"><label for="username">Create a username</label></p> 
+                        <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text"> 
+                         
+                        <p class="contact"><label for="password">Create a password</label></p> 
+                        <input type="password" id="password" name="password" required=""> 
+                        <p class="contact"><label for="repassword">Confirm your password</label></p> 
+                        <input type="password" id="repassword" name="repassword" required="">
+                        <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign up!" type="submit"> 	 
+           </form> 
+                </div>
+            </div>
+
+            <footer>
+                    <div id="footer-left">
+                       <a href="index.html"><img src="images/blizzard.jpg" alt=""></a>
+                
+                     <p> <a href="sitemap.xml">Sitemap</a> &nbsp; <a href="terms.html">Terms of service</a> &nbsp; <a href="aboutme.html">About Me</a></p>
+                     
+                    <p>Blizzard Entertainement All Rights Reserved &copy; 2018</p>
+                    <p>Site created by : Aleksandar Marjanovic 115/17</p>
+                
+                    <div id="social-icons">
+                        <a href="https://www.facebook.com/Hearthstone.en/?brand_redir=498467596862680" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/playhearthstone" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.twitch.tv/directory/game/Hearthstone" target="_blank"><i class="fab fa-twitch"></i></a>
+                        <a href="https://www.youtube.com/user/PlayHearthstone" target="_blank"><i class="fab fa-youtube"></i>
+                        <a href="https://www.instagram.com/playhearthstone" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    </div>
+                
+                    <div id="footer-right">
+                        <p>Contact Us</p>
+                        <form action="#" method="post">
+                
+                            <input type="text" name="email" placeholder="E-mail">
+                
+                            <textarea name="message" id="message" placeholder="Message us"></textarea>
+                
+                            <button>Send</button>
+                        </form>
+                
+                    </div>
+                
+                <div id="scroll-top">
+                        <a href="#" onclick="topFunction()"><i class="fa fa-angle-up"></i></a>
+                    </div>
+         </footer>
+
+
+ <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scrolltop.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/dropdown.js"></script>
+</body>
+</html>

@@ -30,6 +30,18 @@ $wow-font:'lifecraftregular';
                     transition: color 0.3s ease;
                  }
             }
+
+            button{
+                border:none;
+                outline:none;
+                background:black;
+                color:white;
+              p{
+                font-style: $main-font;
+                font-size:26px;
+              }
+
+            }
     }
 
     #header_image{
@@ -298,8 +310,6 @@ footer{
                 resize: none;
             }
 
-        
-
             button{
                 cursor:pointer;
                 margin-top:30px;
@@ -312,6 +322,13 @@ footer{
                 border-radius:5px;
                
             }
+
+        }
+
+        
+        p{
+            color:white;
+            margin-bottom:20px;
         }
     }
 
@@ -341,5 +358,77 @@ textarea {
     display:none;
     i{
         font-size:25px;
+    }
+}
+
+#about{
+    margin:85px auto;
+
+    #img{
+        text-align: center;
+        width:50%;
+        margin:50px auto;
+        img{
+            margin-bottom:50px;
+        }
+
+        p{
+            font-size:24px;
+        }
+    }
+}
+
+#terms{
+    text-align:center;
+    font-size:20px;
+    width:80%;
+    margin:85 auto;
+}
+
+
+#signin{
+    margin:0 auto;
+    width:80%;
+    text-align:center;
+
+    fieldset{
+        border:0;
+    }
+    form{
+        display:inline-block;
+        width:35%;
+
+        input{
+            height:55px;
+            display: block;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #33383b;
+            border: none;
+            font-size: 14px;
+            color: #d1d2d2;
+            width:100%;
+            padding: 18px;
+            font-family: $main-font;
+            overflow:hidden;
+        }
+        .buttom{
+            cursor:pointer;
+            margin-top:30px;
+            font-family: $main-font;
+            background-color: #33383b;
+            color: #ffffff;
+            border: none;
+            padding: 15px 50px;
+            font-weight: bold;
+            border-radius:5px;
+           
+        }
+
+    }
+
+    
+    p{
+        margin-bottom:20px;
     }
 }
