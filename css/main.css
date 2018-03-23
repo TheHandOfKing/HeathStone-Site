@@ -169,16 +169,16 @@ footer {
         footer #footer-left #social-icons a:not(:first-child) {
           margin-left: 20px; }
       footer #footer-left #social-icons .fa-facebook:hover {
-        color: #4747fa;
+        color: #3b5998;
         transition: color 0.3s ease; }
       footer #footer-left #social-icons .fa-twitter:hover {
-        color: #1313fa;
+        color: #00aced;
         transition: color 0.3s ease; }
       footer #footer-left #social-icons .fa-twitch:hover {
-        color: #6c00fa;
+        color: #6441a5;
         transition: color 0.3s ease; }
       footer #footer-left #social-icons .fa-youtube:hover {
-        color: #ca0000;
+        color: #d13d3d;
         transition: color 0.3s ease; }
       footer #footer-left #social-icons .fa-instagram:hover {
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
