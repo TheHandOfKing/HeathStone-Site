@@ -248,27 +248,27 @@ footer{
 
                 .fa-facebook{
                     &:hover{
-                        color:rgb(71, 71, 250);
+                        color:rgb(59, 89, 152);
                         transition: color 0.3s ease;
                     }
                 }
 
                 .fa-twitter{
                     &:hover{
-                        color:rgb(19, 19, 250);
+                        color:rgb(0, 172, 237);
                         transition: color 0.3s ease;
                     }
                 }
                     .fa-twitch{
                         &:hover{
-                            color:rgb(108, 0, 250);
+                            color:rgb(100, 65, 165);
                             transition: color 0.3s ease;
                         }
                      }
 
                      .fa-youtube{
                         &:hover{
-                            color:rgb(202, 0, 0);
+                            color:rgb(209, 61, 61);
                             transition: color 0.3s ease;
                         }
                 }
@@ -277,6 +277,7 @@ footer{
                     &:hover{
                         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                         border-radius:10px;
+                        transition: background-color 0.3s ease;
                     }
             }
              }
