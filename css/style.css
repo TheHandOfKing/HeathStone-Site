@@ -60,6 +60,10 @@ h2
         display:inline-block;
         width:80%;
     }
+
+    #terms p{
+        font-size:15px;
+    }
  }
 
 @media screen and (max-width: 808px){
